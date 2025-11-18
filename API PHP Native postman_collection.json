@@ -19,8 +19,8 @@
         "request": {
           "method": "POST",
           "header": [{ "key": "Content-Type", "value": "application/json" }],
-          "body": { "mode": "raw", "raw": "{\n    \"email\": \"admin@example.com\",\n    \"password\": \"maleo12\"\n}" },
-          "url": { "raw": "http://localhost/api-php-native/public/api/v1/auth/login", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "auth", "login"] }
+          "body": { "mode": "raw", "raw": "{\n    \"email\": \"siskatonapa@example.com\",\n    \"password\": \"siskawatiharuntonapa10082005wans\"\n}" },
+          "url": { "raw": "http://localhost/api-php-native-siska/public/api/v1/auth/login", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "auth", "login"] }
         }
       },
       {
@@ -28,7 +28,7 @@
         "request": {
           "method": "GET",
           "header": [{ "key": "Authorization", "value": "Bearer {{token}}", "type": "text" }],
-          "url": { "raw": "http://localhost/api-php-native/public/api/v1/users", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "users"] }
+          "url": { "raw": "http://localhost/api-php-native-siska/public/api/v1/users", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "users"] }
         }
       },
       {
@@ -39,8 +39,8 @@
             { "key": "Authorization", "value": "Bearer {{token}}", "type": "text" },
             { "key": "Content-Type", "value": "application/json" }
           ],
-          "body": { "mode": "raw", "raw": "{\n    \"name\": \"Maleo\",\n    \"email\": \"maleo@example.com\",\n    \"password\": \"maleo12\",\n    \"role\": \"user\"\n}" },
-          "url": { "raw": "http://localhost/api-php-native/public/api/v1/users", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "users"] }
+          "body": { "mode": "raw", "raw": "{\n    \"name\": \"siska\",\n    \"email\": \"siskatonapa@example.com\",\n    \"password\": \"siskawatiharuntonapa10082005wans\",\n    \"role\": \"user\"\n}" },
+          "url": { "raw": "http://localhost/api-php-native-siska/public/api/v1/users", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "users"] }
         }
       },
       {
@@ -52,7 +52,7 @@
             "mode": "formdata",
             "formdata": [{ "key": "file", "type": "file", "src": "" }]
           },
-          "url": { "raw": "http://localhost/api-php-native/public/api/v1/upload", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "upload"] }
+          "url": { "raw": "http://localhost/api-php-native-siska/public/api/v1/upload", "protocol": "http", "host": ["localhost"], "path": ["api-php-native", "public", "api", "v1", "upload"] }
         }
       }
     ],
